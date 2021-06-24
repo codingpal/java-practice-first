@@ -6,6 +6,7 @@ public class StaticMethod {
 		public static void function1 () {
 				
 				System.out.println("Good Morning");
+				
 			}	
 			
 			public static void main(String[] args) {
@@ -13,5 +14,8 @@ public class StaticMethod {
 				System.out.println("Hello");
 				function1();
 				
+				
+				NonStaticMethod p = new NonStaticMethod();
+				p.call1();
 				}
 }

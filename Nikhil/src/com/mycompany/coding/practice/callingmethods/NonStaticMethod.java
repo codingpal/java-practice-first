@@ -4,18 +4,21 @@ public class NonStaticMethod {
 	
 	public void call1() {
 		System.out.println("Hello Neha");
-		call2();
-	}
+		StaticMethod.function1();
+			}
 	
 	public void call2() {
 		System.out.println("Good Morning");
-		call1();
+			call1();
+			
 	}
 	
-	
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 		
-		NonStaticMethodInStaticArea s = new NonStaticMethodInNonStaticArea();
+		NonStaticMethod p = new NonStaticMethod();
+		p.call1();
+		
+		NonStaticMethod s = new NonStaticMethod();
 		s.call2();
 		
 	}
