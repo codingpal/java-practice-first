@@ -2,26 +2,39 @@ package src.com.mycompany.coding.practice.interfaceScussion;
 
 public class Test1 implements Interface3 {
 
+	@Override
 	public void m1() {
-	System.out.println("Hi");
-
+		// TODO Auto-generated method stub
+		System.out.println("Anvi");
 	}
+
+	@Override
 	public void m2() {
-		
-		System.out.println("Neha");
-		
+		// TODO Auto-generated method stub
+		System.out.println("Nikhil");
 	}
+
+	@Override
 	public void s() {
-		
-		System.out.println("Prakash");
-
+		// TODO Auto-generated method stub
+		System.out.println("Patil");
 	}
+
+	@Override
 	public void p() {
-		
-		System.out.println("Patil");		
+		// TODO Auto-generated method stub
+		System.out.println("Saanvi");
 	}
 
-	
-	
+		public static void main(String[] args) {
+			
+			Test1 h = new Test1();
+			h.m1();
+			h.m2();
+			h.s();
+			h.p();
+			System.out.println(a);
+			System.out.println(b);
+		}
 	
 }
